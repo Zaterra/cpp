@@ -10,7 +10,8 @@ Repo ini merupakan dokumentasi saya belajar C++.
 ```
 **Berikut nama file latihan (bisa dilihat di directory ./src)** 
 1. hello-world
-
+2. variabel
+3. cin-input
 
 ### Apa itu c++?
 
@@ -38,4 +39,15 @@ Compiler akan mem-parsing kode Anda dan menghasilkan file objek. File objek beri
 Tahap terakhir dalam proses tersebut adalah linking. Pada tahap ini, linker akan menggabungkan file objek yang dihasilkan oleh compiler dengan semua library yang diperlukan dan menghasilkan program yang dapat dieksekusi.
 
 Linker akan menyelesaikan simbol yang belum terselesaikan (seperti fungsi atau variabel yang direferensikan di satu file objek tetapi didefinisikan di file objek lain) dan memastikan bahwa semua kode dan data yang diperlukan termasuk dalam program yang dihasilkan.
+
+### Menulis Comment Di C++
+
+```c++
+ // ini adalah one line comment
+ 
+ /*
+    ini adalah
+    multi line comment
+*/
+```
 
