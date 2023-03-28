@@ -15,8 +15,11 @@ Repo ini merupakan dokumentasi saya belajar C++.
 
 ### Apa itu c++?
 
-C dan C++ itu beda.
-C++ dibuat oleh **Bjarne Stroustrup**. C++ merupakan C yang lebih complex
+C++ adalah bahasa pemrograman lintas platform yang dapat digunakan untuk membuat aplikasi dengan kinerja tinggi.
+
+C++ dikembangkan oleh Bjarne Stroustrup sebagai perluasan dari bahasa pemrograman C.
+
+C++ memberikan para pemrogram kontrol yang tinggi terhadap sumber daya sistem dan memori.
 
 ### Preprocess, Compile, dan Linking pada C++
 

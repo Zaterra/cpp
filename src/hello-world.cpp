@@ -5,7 +5,7 @@
 */
 
 // menimport iostream
-#include <iostream>
+#include <iostream> // ini merupakan header file
 
 int main(){
     // menampilkan output string di console
