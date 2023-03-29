@@ -3,10 +3,10 @@
 Repo ini merupakan dokumentasi saya belajar C++.
 
 
-### Menjalankan program
+### Menjalankan setiap program latihan
 
 ```bash
-./watch.sh nama-file-latihan
+./run.sh
 ```
 **Berikut nama file latihan (bisa dilihat di directory ./src)** 
 1. hello-world
