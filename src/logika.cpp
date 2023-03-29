@@ -1,6 +1,7 @@
 #include <iostream> 
 
-using namespace std;
+using std::cout; // lebih baik dari using namespace
+
 int main() {
     int a = 3;
     int b = 2;
@@ -11,14 +12,14 @@ int main() {
     
     // not
     hasil = not (a == b);
-    cout << hasil << endl;
+    cout << hasil << '\n';
 
     // and(and/&&) : kedua nilai harus benar untuk menghasilkan true
     hasil = (a == 3) and (b == 2);
-    cout << hasil << endl;
+    cout << hasil << '\n';
 
     // or : salah satu nilai harus true
     hasil = (a == 2) or (a == 3);
-    cout << hasil << endl;
+    cout << hasil << '\n';
     return 0;
 }
