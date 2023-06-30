@@ -15,7 +15,7 @@ select filename in "${files[@]}"; do
         echo "Running Nodemon $filename..."
         base=$(basename "$filename" .cpp)
         # Run nodemon with clang++ to compile and execute the C++ program
-        nodemon --exec "clang++ ./src/$filename -o ./bin/$base && ./bin/$base"
+        nodemon --ext cpp --exec "clang++ ./src/$filename -o ./bin/$base && ./bin/$base"
         break
     else
         echo "Invalid selection."
