@@ -6,7 +6,7 @@ while true; do
     if [[ -n $filename ]]; then
         echo "Compiling and executing $filename..."
         base=$(basename "$filename" .cpp)
-        clang++ "./src/$filename" -o "./bin/$base" && time "./bin/$base"
+        g++ "./src/$filename" -o "./bin/$base" && time "./bin/$base"
         break
     else
         echo "Invalid selection."
