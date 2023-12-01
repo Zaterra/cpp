@@ -11,7 +11,7 @@ int main(){
         1 bytes = 8 bit
         maka 4 bytes = 4*8
                      = 32 bit
-        kesimpulan integer adalah 32 bit, namun di integer didepannya dipakai untuk tada + atau - maka,
+        kesimpulan integer adalah 32 bit, namun di integer didepannya dipakai untuk tanda + atau - maka,
         integer adalah 31 bit, jadi maxsimal angka integer adalah 3^31 = +-2147483647
     */
     // bukti
@@ -31,13 +31,13 @@ int main(){
     std::cout << "besar dari isTrue adalah " << sizeof(isTrue) << "bytes" << "\n";
     std::cout << "\n";
 
-    //char: berupa satu karakter huruf
+    //char: berupa hanya satu karakter huruf
     char huruf = 'a';
     std::cout << "huruf adalah " << huruf << "\n";
     std::cout << "besar dari huruf adalah " << sizeof(huruf) << "bytes" << "\n";
     std::cout << "\n";
 
-    // string: berupa text 
+    // string: berupa text y
     std::string str = "hello";
     std::cout << "variabel str adalah "<< str << "\n";
     std::cout << "besar dari str adalah " << sizeof(str) << "bytes" << "\n";
