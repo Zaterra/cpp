@@ -1,5 +1,5 @@
 #include <iostream>
-#include <conio.h>
+// #include <conio.h> // lib conio.h tidak ada di default g++ linux (Ubuntu), kayaknya harus install manual
 void benar(){
     std::cout << "Benar!\n";
 }
@@ -21,6 +21,9 @@ int main(){
             std::cout << "Salah!\n";
             break;
     }
-    getch();
+    // getch(); 
+    /* fungsi getch() berfungsi untuk mendapat input tanpa
+        menampilkannya dilayar, kayak password. 
+        tapi karena conio.h tidak ada jadi tidak bisa digunakan. */
     return 0;
 }
