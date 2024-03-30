@@ -8,6 +8,6 @@ int main(){
     int i = 0;
     do {
         std::cout << "Perulangan ke-"  << ++i << "\n";
-    } while(i == 10);
+    } while(i <= 10);
     std::cout << i;
 }
