@@ -1,4 +1,12 @@
 #!/bin/bash
+folder="./bin"
+
+if [ ! -d "$folder" ]; then
+    # Jika tidak ada, maka buat folder
+    mkdir "$folder"
+    echo "Folder $folder telah dibuat."
+fi
+
 files=( $(ls ./src | sort -n) )
 echo "Silakan Pilih file latihan yang ingin dijalankan"
 while true; do
