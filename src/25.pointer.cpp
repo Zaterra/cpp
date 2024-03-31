@@ -15,5 +15,6 @@ int main(){
     cout << "Address dari a_ptr : " << a_ptr << endl;
     cout << "Nilai dari a_ptr : " << *a_ptr << endl; // dereferencing
     cout << "Adress dari a_ptr1 : " << a_ptr1 << endl;
+    cout << "Nilai dari a_ptr1 : " << *a_ptr1 << endl;
     return 0;
 }

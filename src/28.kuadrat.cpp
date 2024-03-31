@@ -21,7 +21,8 @@ int main(){
     int *a_ptr = &a;
     int &a_ref = a;
     cout << "a addr : " <<  a_ptr << endl;
-     // cout << kuadrat(a_ptr) << endl;
+    cout << "===============" << endl;
+    cout << kuadrat(a_ptr) << endl;
     cout << kuadrat(&a) << endl;
     cout << kuadrat(a_ref) << endl;
     cout << kuadrat(2) << endl;
