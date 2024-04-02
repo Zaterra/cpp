@@ -15,16 +15,9 @@ void pointer_func(const int* p, std::size_t size)
         std::cout << "Pointer tidak valid\n";
         return;
     }
-
     std::cout << "data = ";
     for (std::size_t i = 0; i < size; ++i) {
-        // Periksa apakah indeks berada dalam rentang yang valid
-        if (i < size) {
-            std::cout << p[i] << ' ';
-        } else {
-            std::cout << "Akses di luar batas array\n";
-            break;
-        }
+        std::cout << p[i] << ' ';
     }
     std::cout << '\n';
 }

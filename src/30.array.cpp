@@ -13,7 +13,9 @@ void lihatAddrDanNilai(const int nilai[],size_t &size){
 // Array adalah sekumpulan data
 int main(){
     // membuat array
-    int nilai[3];
+    int nilai[3]; 
+    // atau
+    // int nilai[3] = {1,2,3}
     nilai[0] = 1;
     nilai[1] = 2; // array bisa berupa tipe data lain seperti boolean, string, char, float ,dll
     nilai[2] = 3;

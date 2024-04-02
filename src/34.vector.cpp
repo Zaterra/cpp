@@ -11,9 +11,9 @@ void lihatAddrDanNilai(vector<int>& vec){
         cout << "Nilai dari vec[" << i << "] " << vec[i] << endl;
     }
 }
-void rubahNilai(vector<int>& vec, size_t index, int nilai){
-    if(index > vec.size()){
-        cout << "Gagal merubah data :/, index > vec.size()" << endl;
+void rubahNilai(vector<int>&vec, size_t index, int nilai){
+    if(index >= vec.size()){
+        cout << "Gagal merubah data :/, index >= vec.size() " << "index=" << index << " vec.size()=" << vec.size() << endl;       
         return;
     }
     cout << "Merubah vec[" << index << "] menjadi " << nilai << endl;
@@ -30,10 +30,10 @@ void rubahNilai(vector<int>& vec, size_t index, int nilai){
 int main(){
     vector<int> vec = {1,2,3};
     cout << "Panjang vector : " << vec.size() << endl;
-    cout << "Nilai awal : " << vec.front() << endl;
-    cout << "Nilai akhir : " << vec.back() << endl;
+    cout << "Nilai element awal : " << vec.front() << endl;
+    cout << "Nilai element akhir : " << vec.back() << endl;
     lihatAddrDanNilai(vec);
-    rubahNilai(vec,4,5);
+    rubahNilai(vec,3,5); // error karena index vector atau array dimulai dari 0
     rubahNilai(vec,0,5);
     lihatAddrDanNilai(vec); 
     return 0;
